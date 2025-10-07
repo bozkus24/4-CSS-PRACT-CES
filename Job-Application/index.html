@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Job Application</title>
+
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="box salary-box">
+      <h3>Salary Range</h3>
+
+      <div class="row">
+        <div class="select">
+          <button class="select-btn purple-btn">
+            <span class="select-text">Min</span>
+            <span class="select-arrow">▲</span>
+          </button>
+          <ul class="select-list">
+            <li>Min</li>
+            <li>80k</li>
+            <li class="active">110k</li>
+            <li>140k</li>
+            <li>Custom</li>
+          </ul>
+        </div>
+
+        <div class="select small">
+          <button class="select-btn">
+            <span class="select-text">Min</span>
+            <span class="select-arrow">▼</span>
+          </button>
+        </div>
+
+        <button class="btn-apply">Apply</button>
+      </div>
+    </section>
+
+    <section class="box location-box">
+      <h3>Location</h3>
+      <input class="input-location" type="text" placeholder="Enter location" />
+
+      <div class="checkboxes">
+        <label><input type="checkbox"/> Remote Position</label>
+        <label><input type="checkbox"/> On-site Position</label>
+      </div>
+    </section>
+
+    <section class="box experience-box">
+      <h3>Experience level</h3>
+
+      <div class="experience">
+        <label class="experience-item"><input type="checkbox" /> No experience</label>
+        <label class="experience-item"><input type="checkbox" /> 3-5 years</label>
+        <label class="experience-item"><input type="checkbox" /> 1-2 years</label>
+        <label class="experience-item"><input type="checkbox" /> 6+ years</label>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
